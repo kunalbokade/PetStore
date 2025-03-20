@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="APITestSuite">
+
+    <listeners>
+        <listener class-name="com.petstore.utilities.BaseTest"/>
+    </listeners>
+    <test name="PetTests">
+        <classes>
+            <class name="tests.PetTests"/>
+        </classes>
+    </test>
+
+    <!--******************************* Pet Smoke ************************************************* -->
+
+    <!-- <test name="PetTests">
+         <groups>
+             <run>
+                 <include name="Smoke"/>
+             </run>
+         </groups>
+         <classes>
+             <class name="tests.PetTests"/>
+         </classes>
+     </test>-->
+
+    <!--******************************* Pet Regression ************************************************* -->
+
+    <!-- <test name="PetTests">
+         <groups>
+             <run>
+                 <include name="Regression"/>
+             </run>
+         </groups>
+         <classes>
+             <class name="tests.PetTests"/>
+         </classes>
+     </test>-->
+
+    <!--******************************* Store Regression ************************************************* -->
+
+    <!-- <test name="StoreTests">
+         <groups>
+             <run>
+                 <include name="Regression"/>
+             </run>
+         </groups>
+         <classes>
+             <class name="tests.StoreTests"/>
+         </classes>
+     </test> -->
+
+    <!--******************************* User Regression ************************************************* -->
+
+    <!-- <test name="UserTests">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+            <classes>
+                <class name="tests.UserTests"/>
+            </classes>
+     </test>  -->
+
+</suite>

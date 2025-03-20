@@ -1,0 +1,253 @@
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 7139,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "Carmine",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "pending"
+}
+HTTP/1.1 200 OK
+Date: Mon, 17 Mar 2025 13:02:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 7139,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "Carmine",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "pending"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/7139
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petId=7139
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 17 Mar 2025 13:02:40 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 7139,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "Carmine",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "pending"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet/7139/uploadImage
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petId=7139
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = file; filename = Dog1.jpg
+				Content-Type: application/octet-stream
+
+				src\test\resources\PetImages\Dog1.jpg
+				------------
+				Content-Disposition: form-data; name = additionalMetadata; filename = file
+				Content-Type: text/plain
+
+				Quae at sunt suscipit et nemo beatae.
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 17 Mar 2025 13:02:42 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "additionalMetadata: Quae at sunt suscipit et nemo beatae.\nFile uploaded to ./Dog1.jpg, 53972 bytes"
+}
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 7139,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "Carmine",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "pending"
+}
+HTTP/1.1 200 OK
+Date: Mon, 17 Mar 2025 13:02:42 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 7139,
+    "category": {
+        "id": 0,
+        "name": "string"
+    },
+    "name": "Carmine",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 0,
+            "name": "string"
+        }
+    ],
+    "status": "pending"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet/7139
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	name=Roselee
+				status=sold
+Path params:	petId=7139
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 17 Mar 2025 13:02:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "7139"
+}
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/7139
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	petId=7139
+Headers:		api_key=special-key
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 17 Mar 2025 13:02:44 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "7139"
+}
