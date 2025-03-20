@@ -200,6 +200,6 @@ public class PetTests extends BaseTest {
                 .assertThat()
                 .statusCode(200);
 
-        test.pass("Pet deleted successfully");
+        test.pass("Pet deleted successfully"); //added comment
     }
 }
